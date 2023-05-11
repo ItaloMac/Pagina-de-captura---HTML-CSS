@@ -1,0 +1,147 @@
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 10px;
+    
+}
+
+.cabecalho  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: var(--branco);
+}
+
+.conteudo_principal {
+    display: flex;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    padding-top: 6%;
+
+}
+
+
+.chamada * {  
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.formulario_fieldset * {
+    padding-bottom: 10px;
+}
+
+form input {
+    margin: 0 0 20px;
+    padding: 10px 25px; 
+    width: 50%;
+}
+
+form label {
+    font-size: 20px;
+    margin: 0 0 10px;
+}  
+
+.botao {
+    background-color: var(--azul-mar);
+    font-size: 18px;
+    font-family: var(--montserrat);
+    font-weight: bold;
+    color: var(--branco);
+    border-color: var(--azul-mar);;
+    
+}
+
+
+
+.titulo_principal {
+    font-size: 35px;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.legenda {
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-right: 6%;
+        padding-left: 6%;
+        padding-bottom: 10px;
+    
+        
+    }
+    
+    .cabecalho  {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        background-color: var(--branco);
+    }
+    
+    .conteudo_principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    .chamada * {  
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    
+    .formulario_fieldset * {
+        padding-bottom: 10px;
+    }
+    
+    form input {
+        margin: 0 0 20px;
+        padding: 10px 25px; 
+        width: 50%;
+        border: solid black 1px;
+    }
+    
+    form label {
+        font-size: 16px;
+        margin: 0 0 10px;
+    }  
+    
+    .botao {
+        background-color: var(--azul-mar);
+        font-size: 18px;
+        font-family: var(--montserrat);
+        font-weight: bold;
+        color: var(--branco);
+        border-color: var(--azul-mar);;
+        
+    }
+    
+    .titulo_principal {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .subtitulo {
+        font-size: 18px;
+    }
+    
+    .legenda {
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .imagem_principal {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        object-position: bottom;
+        
+    }
+}
